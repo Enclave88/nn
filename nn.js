@@ -1,4 +1,4 @@
-var synaptic = require('synaptic');
+const synaptic = require('synaptic');
 
 const {Layer, Network} = window.synaptic;
 
