@@ -1,0 +1,14 @@
+{
+  "name": "nn0",
+  "version": "0.0.1",
+  "description": "nn",
+  "main": "nn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sutangu",
+  "license": "MIT",
+  "dependencies": {
+    "synaptic": "^1.1.4"
+  }
+}
