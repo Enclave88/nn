@@ -12,7 +12,15 @@
     "synaptic": "^1.1.4"
   },
   "devDependencies": {
+    "coffee-script": "^1.12.7",
     "gulp": "^3.9.1",
-    "gulp-require-tasks": "^1.2.1"
+    "gulp-clean": "^0.4.0",
+    "gulp-coffee": "^3.0.2",
+    "gulp-connect": "^5.2.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-require-tasks": "^1.2.1",
+    "gulp-requirejs": "^1.1.1",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.0"
   }
 }
