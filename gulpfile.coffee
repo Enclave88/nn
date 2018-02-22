@@ -40,12 +40,12 @@ gulp.task 'build', ['coffee'], ->
     insertRequire: ['main']
     out: 'all.js'
     wrap: on
-  #.pipe do uglify
+#  .pipe do uglify
   .pipe gulp.dest 'dist/js'
   .pipe do connect.reload
 
-  #gulp.src 'js/', read: no
-   # .pipe do clean
+  gulp.src 'js/', read: no
+    .pipe do clean
 
 gulp.task 'coffee', ->
   gulp.src 'coffee/*.coffee'

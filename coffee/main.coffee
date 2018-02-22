@@ -1,4 +1,4 @@
-synaptic = require('synaptic')
+#synaptic = require('../node_modules/synaptic/dist/synaptic')
 
 Network = window.synaptic
 Layer = window.synaptic
